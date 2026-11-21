@@ -1,0 +1,42 @@
+07:08:20 360 cases: hop1=120, hop2=120, both=120
+07:08:22 24 neighbour facts
+/mnt/disk2_from_server2/siqizhu4/LoopKnowledge/src/lk/edit.py:75: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  hist.append((float(loss), float(probs.min())))
+07:08:24 [0/360] hop1 steps=9 edit_new@T=True nested new/old@T=False/False neigh=0.96 2s
+07:08:42 [10/360] hop1 steps=12 edit_new@T=True nested new/old@T=True/False neigh=0.96 20s
+07:09:03 [20/360] hop1 steps=19 edit_new@T=True nested new/old@T=True/False neigh=0.92 41s
+07:09:24 [30/360] hop1 steps=16 edit_new@T=True nested new/old@T=True/False neigh=0.92 62s
+07:09:44 [40/360] hop1 steps=11 edit_new@T=True nested new/old@T=False/False neigh=1.00 82s
+07:10:05 [50/360] hop1 steps=11 edit_new@T=True nested new/old@T=True/False neigh=0.96 103s
+07:10:24 [60/360] hop1 steps=18 edit_new@T=True nested new/old@T=True/False neigh=1.00 122s
+07:10:46 [70/360] hop1 steps=24 edit_new@T=True nested new/old@T=True/False neigh=0.88 144s
+07:11:03 [80/360] hop1 steps=11 edit_new@T=True nested new/old@T=False/False neigh=0.92 161s
+07:11:22 [90/360] hop1 steps=14 edit_new@T=True nested new/old@T=True/False neigh=0.88 180s
+07:11:46 [100/360] hop1 steps=24 edit_new@T=True nested new/old@T=True/False neigh=0.79 204s
+07:12:06 [110/360] hop1 steps=13 edit_new@T=True nested new/old@T=False/False neigh=0.92 224s
+07:12:27 [120/360] hop2 steps=9 edit_new@T=True nested new/old@T=False/False neigh=0.96 245s
+07:12:49 [130/360] hop2 steps=7 edit_new@T=True nested new/old@T=True/False neigh=1.00 267s
+07:13:14 [140/360] hop2 steps=22 edit_new@T=True nested new/old@T=False/False neigh=1.00 292s
+07:13:39 [150/360] hop2 steps=22 edit_new@T=True nested new/old@T=False/False neigh=0.79 317s
+07:14:04 [160/360] hop2 steps=16 edit_new@T=True nested new/old@T=False/True neigh=0.96 342s
+07:14:29 [170/360] hop2 steps=8 edit_new@T=True nested new/old@T=False/False neigh=0.92 367s
+07:14:54 [180/360] hop2 steps=16 edit_new@T=True nested new/old@T=False/False neigh=0.92 392s
+07:15:18 [190/360] hop2 steps=9 edit_new@T=True nested new/old@T=True/False neigh=0.96 416s
+07:15:42 [200/360] hop2 steps=24 edit_new@T=True nested new/old@T=True/False neigh=0.83 440s
+07:16:02 [210/360] hop2 steps=15 edit_new@T=True nested new/old@T=False/False neigh=0.96 460s
+07:16:26 [220/360] hop2 steps=15 edit_new@T=True nested new/old@T=True/False neigh=0.42 484s
+07:16:49 [230/360] hop2 steps=8 edit_new@T=True nested new/old@T=False/False neigh=1.00 507s
+07:17:10 [240/360] both steps=26 edit_new@T=True nested new/old@T=False/False neigh=1.00 528s
+07:17:41 [250/360] both steps=12 edit_new@T=True nested new/old@T=False/True neigh=1.00 559s
+07:18:11 [260/360] both steps=28 edit_new@T=True nested new/old@T=False/False neigh=0.88 589s
+07:18:46 [270/360] both steps=45 edit_new@T=True nested new/old@T=False/False neigh=0.79 624s
+07:19:22 [280/360] both steps=19 edit_new@T=True nested new/old@T=True/False neigh=0.83 660s
+07:19:58 [290/360] both steps=18 edit_new@T=True nested new/old@T=True/False neigh=0.79 696s
+07:20:32 [300/360] both steps=30 edit_new@T=True nested new/old@T=False/False neigh=1.00 730s
+07:21:07 [310/360] both steps=24 edit_new@T=True nested new/old@T=False/False neigh=0.88 765s
+07:21:39 [320/360] both steps=18 edit_new@T=True nested new/old@T=False/False neigh=0.88 797s
+07:22:13 [330/360] both steps=27 edit_new@T=True nested new/old@T=False/False neigh=0.71 831s
+07:22:47 [340/360] both steps=19 edit_new@T=True nested new/old@T=False/True neigh=0.79 865s
+07:23:21 [350/360] both steps=23 edit_new@T=True nested new/old@T=False/False neigh=0.88 899s
+07:23:47 done

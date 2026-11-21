@@ -1,0 +1,25 @@
+{
+ "model": "huginn-0125",
+ "layers": [
+  "coda:0",
+  "coda:1"
+ ],
+ "T": 32,
+ "read_rounds": [
+  32
+ ],
+ "split": "dev",
+ "groups": [
+  "hop1",
+  "hop2"
+ ],
+ "n": 12,
+ "lr": 1e-05,
+ "linf": null,
+ "steps": 60,
+ "stop_p": 0.9,
+ "sup": "final",
+ "unroll": "",
+ "n_neighbors": 24,
+ "tag": "cal-coda-lr1e-5"
+}

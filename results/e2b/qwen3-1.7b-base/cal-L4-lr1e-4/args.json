@@ -1,0 +1,24 @@
+{
+ "model": "qwen3-1.7b-base",
+ "layers": [
+  "4"
+ ],
+ "T": 1,
+ "read_rounds": [
+  1
+ ],
+ "split": "dev",
+ "groups": [
+  "hop1",
+  "hop2"
+ ],
+ "n": 15,
+ "lr": 0.0001,
+ "linf": null,
+ "steps": 60,
+ "stop_p": 0.9,
+ "sup": "final",
+ "unroll": "",
+ "n_neighbors": 24,
+ "tag": "cal-L4-lr1e-4"
+}

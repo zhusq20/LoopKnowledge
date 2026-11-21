@@ -1,0 +1,26 @@
+{
+ "model": "ouro-1.4b",
+ "layers": [
+  "4",
+  "5",
+  "6"
+ ],
+ "T": null,
+ "read_rounds": [
+  4
+ ],
+ "split": "dev",
+ "groups": [
+  "hop1",
+  "hop2"
+ ],
+ "n": 15,
+ "lr": 0.0001,
+ "linf": null,
+ "steps": 60,
+ "stop_p": 0.9,
+ "sup": "final",
+ "unroll": "",
+ "n_neighbors": 24,
+ "tag": "cal-L456-lr1e-4"
+}

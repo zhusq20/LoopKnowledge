@@ -1,0 +1,10 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.62it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  3.81it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  4.95it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  4.65it/s]
+06:38:27 24 cases: hop1=12, hop2=12
+06:38:50 24 neighbour facts
+/mnt/disk2_from_server2/siqizhu4/LoopKnowledge/src/lk/edit.py:75: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  hist.append((float(loss), float(probs.min())))
+06:39:08 [0/24] hop1 steps=3 edit_new@T=True nested new/old@T=False/True neigh=0.83 17s
+06:41:33 [10/24] hop1 steps=2 edit_new@T=True nested new/old@T=False/True neigh=1.00 163s
+06:43:50 [20/24] hop2 steps=3 edit_new@T=False nested new/old@T=False/False neigh=0.96 299s
+06:44:22 done

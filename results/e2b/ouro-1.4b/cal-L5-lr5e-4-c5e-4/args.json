@@ -1,0 +1,24 @@
+{
+ "model": "ouro-1.4b",
+ "layers": [
+  "5"
+ ],
+ "T": null,
+ "read_rounds": [
+  4
+ ],
+ "split": "dev",
+ "groups": [
+  "hop1",
+  "hop2"
+ ],
+ "n": 15,
+ "lr": 0.0005,
+ "linf": 0.0005,
+ "steps": 40,
+ "stop_p": 0.9,
+ "sup": "final",
+ "unroll": "",
+ "n_neighbors": 24,
+ "tag": "cal-L5-lr5e-4-c5e-4"
+}

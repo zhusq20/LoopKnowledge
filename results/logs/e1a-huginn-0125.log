@@ -1,0 +1,6 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:00,  9.98it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:00<00:00,  4.30it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:00<00:00,  3.80it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00,  4.93it/s]
+07:02:32 276 known facts of 600 candidates
+07:02:32 noise level 2.2597
+07:07:40 item 10/276 p_clean=0.703 p_corrupt=0.047 elapsed 308s
+07:14:12 item 20/276 p_clean=0.153 p_corrupt=0.148 elapsed 700s
+07:24:24 item 40/276 p_clean=0.433 p_corrupt=0.067 elapsed 1312s

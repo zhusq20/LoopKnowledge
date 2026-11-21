@@ -1,0 +1,9 @@
+06:48:31 30 cases: hop1=15, hop2=15
+06:48:32 24 neighbour facts
+/mnt/disk2_from_server2/siqizhu4/LoopKnowledge/src/lk/edit.py:75: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  hist.append((float(loss), float(probs.min())))
+06:48:34 [0/30] hop1 steps=19 edit_new@T=True nested new/old@T=False/True neigh=0.79 2s
+06:48:50 [10/30] hop1 steps=14 edit_new@T=True nested new/old@T=False/False neigh=0.96 17s
+06:49:06 [20/30] hop2 steps=21 edit_new@T=True nested new/old@T=True/False neigh=0.92 33s
+06:49:21 done

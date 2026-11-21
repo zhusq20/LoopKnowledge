@@ -1,0 +1,24 @@
+05:30:50 484 known facts of 800 candidates
+05:30:50 noise level 0.0731
+05:33:49 item 10/484 p_clean=0.727 p_corrupt=0.034 elapsed 178s
+05:36:49 item 20/484 p_clean=0.703 p_corrupt=0.025 elapsed 359s
+05:42:20 item 40/484 p_clean=0.309 p_corrupt=0.174 elapsed 689s
+05:45:31 item 50/484 p_clean=0.777 p_corrupt=0.010 elapsed 881s
+05:52:16 item 70/484 p_clean=0.715 p_corrupt=0.068 elapsed 1286s
+05:56:17 item 80/484 p_clean=0.741 p_corrupt=0.001 elapsed 1527s
+06:00:21 item 90/484 p_clean=0.421 p_corrupt=0.022 elapsed 1770s
+06:05:51 item 100/484 p_clean=0.591 p_corrupt=0.065 elapsed 2101s
+06:11:20 item 110/484 p_clean=0.561 p_corrupt=0.028 elapsed 2429s
+06:15:51 item 120/484 p_clean=0.789 p_corrupt=0.030 elapsed 2700s
+06:21:43 item 130/484 p_clean=0.266 p_corrupt=0.085 elapsed 3052s
+06:27:20 item 140/484 p_clean=0.539 p_corrupt=0.032 elapsed 3390s
+06:33:52 item 150/484 p_clean=0.522 p_corrupt=0.001 elapsed 3782s
+06:38:05 item 160/484 p_clean=0.746 p_corrupt=0.002 elapsed 4034s
+06:40:23 item 170/484 p_clean=0.729 p_corrupt=0.100 elapsed 4173s
+06:42:59 item 180/484 p_clean=0.239 p_corrupt=0.022 elapsed 4329s
+06:45:36 item 190/484 p_clean=0.933 p_corrupt=0.003 elapsed 4486s
+06:47:33 item 200/484 p_clean=0.907 p_corrupt=0.032 elapsed 4603s
+06:50:20 item 210/484 p_clean=0.433 p_corrupt=0.054 elapsed 4769s
+06:52:16 item 220/484 p_clean=0.696 p_corrupt=0.000 elapsed 4886s
+06:55:10 item 230/484 p_clean=0.914 p_corrupt=0.027 elapsed 5059s
+06:56:25 done

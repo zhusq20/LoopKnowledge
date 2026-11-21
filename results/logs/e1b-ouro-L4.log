@@ -1,0 +1,18 @@
+06:56:37 120 cases: hop1=60, hop2=60
+06:56:40 24 neighbour facts
+/mnt/disk2_from_server2/siqizhu4/LoopKnowledge/src/lk/edit.py:75: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:835.)
+  hist.append((float(loss), float(probs.min())))
+06:56:57 [0/120] hop1 steps=20 edit_new@T=True nested new/old@T=False/False neigh=1.00 16s
+06:58:57 [10/120] hop1 steps=8 edit_new@T=True nested new/old@T=True/False neigh=0.92 137s
+07:01:53 [20/120] hop1 steps=14 edit_new@T=True nested new/old@T=False/True neigh=1.00 313s
+07:04:08 [30/120] hop1 steps=8 edit_new@T=True nested new/old@T=False/False neigh=1.00 448s
+07:06:10 [40/120] hop1 steps=9 edit_new@T=True nested new/old@T=False/False neigh=0.83 569s
+07:08:11 [50/120] hop1 steps=11 edit_new@T=True nested new/old@T=True/False neigh=0.88 690s
+07:10:15 [60/120] hop2 steps=9 edit_new@T=True nested new/old@T=False/False neigh=0.96 814s
+07:12:09 [70/120] hop2 steps=10 edit_new@T=True nested new/old@T=True/False neigh=0.96 929s
+07:14:17 [80/120] hop2 steps=13 edit_new@T=True nested new/old@T=False/False neigh=1.00 1057s
+07:16:37 [90/120] hop2 steps=24 edit_new@T=True nested new/old@T=False/False neigh=0.96 1197s
+07:18:49 [100/120] hop2 steps=5 edit_new@T=True nested new/old@T=False/False neigh=1.00 1328s
+07:21:10 [110/120] hop2 steps=7 edit_new@T=True nested new/old@T=False/False neigh=0.96 1469s
+07:23:12 done

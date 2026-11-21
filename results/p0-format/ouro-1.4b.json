@@ -1,0 +1,269 @@
+{
+ "model": "ouro-1.4b",
+ "n_dev_facts": 300,
+ "formats": {
+  "zeroshot": {
+   "acc_by_round": {
+    "1": 0.09666666666666666,
+    "2": 0.27,
+    "3": 0.36,
+    "4": 0.41
+   },
+   "seconds": 7.9341442584991455,
+   "examples": [
+    {
+     "cloze": "Aslan was created by",
+     "gold": "c s lewis",
+     "gen": {
+      "1": " the",
+      "2": " the first settlers, and the'stream'",
+      "3": " the Turkish government in 1999,",
+      "4": " the Ottoman Empire in the 16th century"
+     }
+    },
+    {
+     "cloze": "Louis XV of France is affiliated with the religion of",
+     "gold": "catholic church",
+     "gen": {
+      "1": "",
+      "2": "",
+      "3": " Catholicism.",
+      "4": " Catholicism."
+     }
+    },
+    {
+     "cloze": "Leopard 2 was created in the country of",
+     "gold": "germany",
+     "gen": {
+      "1": " the same name.",
+      "2": "",
+      "3": " Germany.",
+      "4": " Germany."
+     }
+    },
+    {
+     "cloze": "Thumbelina was created by",
+     "gold": "hans christian andersen",
+     "gen": {
+      "1": " the",
+      "2": " the first-ever female president of the United States",
+      "3": " the same team as the original Thumbelina",
+      "4": " the same team as the original Thumbelina"
+     }
+    },
+    {
+     "cloze": "France is located in the continent of",
+     "gold": "europe",
+     "gen": {
+      "1": " Europe.",
+      "2": " Europe.",
+      "3": " Europe.",
+      "4": " Europe."
+     }
+    },
+    {
+     "cloze": "The origianl broadcaster of The Drew Carey Show is",
+     "gold": "american broadcasting company",
+     "gen": {
+      "1": " a show that has been around for a while.",
+      "2": " the network that is now called NBC.",
+      "3": " not the same as the one that is on the",
+      "4": " now the host of a new show on NBC called"
+     }
+    },
+    {
+     "cloze": "The official language of Spain is",
+     "gold": "spanish",
+     "gen": {
+      "1": " Spanish, and the",
+      "2": " Spanish, but the official language of the government is",
+      "3": " Spanish, but there are other languages spoken in different",
+      "4": " Spanish, but there are other languages spoken in different"
+     }
+    },
+    {
+     "cloze": "Andrzej Sapkowski speaks the language of",
+     "gold": "polish",
+     "gen": {
+      "1": " the",
+      "2": " the people. He is a true artist and a",
+      "3": " the people. He is a true poet of the",
+      "4": " the people."
+     }
+    },
+    {
+     "cloze": "Abraham Lincoln is married to",
+     "gold": "mary todd lincoln",
+     "gen": {
+      "1": " the",
+      "2": " Mary Todd Lincoln.",
+      "3": " Mary Todd Lincoln.",
+      "4": " Mary Todd Lincoln."
+     }
+    },
+    {
+     "cloze": "The author of Gulliver's Travels is",
+     "gold": "jonathan swift",
+     "gen": {
+      "1": " a 18th-century English author,",
+      "2": " a.",
+      "3": " Jonathan Swift.",
+      "4": " Jonathan Swift."
+     }
+    },
+    {
+     "cloze": "Charlie Brown was created by",
+     "gold": "charles m schulz",
+     "gen": {
+      "1": " the",
+      "2": " the",
+      "3": " Charles Schulz.",
+      "4": " Charles Schulz."
+     }
+    },
+    {
+     "cloze": "Sei Sh\u014dnagon was born in the city of",
+     "gold": "kyoto",
+     "gen": {
+      "1": " K\u014dyama, in the province of K",
+      "2": " K\u014dyama, in the province of \ufffd",
+      "3": " Kyoto, Japan, in 1946",
+      "4": " Sei Sh\u014dnagon, which is now"
+     }
+    }
+   ]
+  },
+  "fewshot": {
+   "acc_by_round": {
+    "1": 0.33666666666666667,
+    "2": 0.6333333333333333,
+    "3": 0.7366666666666667,
+    "4": 0.72
+   },
+   "seconds": 12.876982688903809,
+   "examples": [
+    {
+     "cloze": "Aslan was created by",
+     "gold": "c s lewis",
+     "gen": {
+      "1": " the author of the book \"The Chronicles of N",
+      "2": " the author of The Chronicles of Narnia.",
+      "3": " C.S. Lewis.",
+      "4": " C.S. Lewis."
+     }
+    },
+    {
+     "cloze": "Louis XV of France is affiliated with the religion of",
+     "gold": "catholic church",
+     "gen": {
+      "1": " Christianity.",
+      "2": " Catholicism.",
+      "3": " Catholicism.",
+      "4": " Catholicism."
+     }
+    },
+    {
+     "cloze": "Leopard 2 was created in the country of",
+     "gold": "germany",
+     "gen": {
+      "1": " France.",
+      "2": " Germany.",
+      "3": " Germany.",
+      "4": " Germany."
+     }
+    },
+    {
+     "cloze": "Thumbelina was created by",
+     "gold": "hans christian andersen",
+     "gen": {
+      "1": " the company of the same name.",
+      "2": " the Brothers Grimm.",
+      "3": " Hans Christian Andersen.",
+      "4": " Hans Christian Andersen."
+     }
+    },
+    {
+     "cloze": "France is located in the continent of",
+     "gold": "europe",
+     "gen": {
+      "1": " Europe.",
+      "2": " Europe.",
+      "3": " Europe.",
+      "4": " Europe."
+     }
+    },
+    {
+     "cloze": "The origianl broadcaster of The Drew Carey Show is",
+     "gold": "american broadcasting company",
+     "gen": {
+      "1": " the same as the one who created the show.",
+      "2": " NBC.",
+      "3": " Drew Carey.",
+      "4": " Drew Carey."
+     }
+    },
+    {
+     "cloze": "The official language of Spain is",
+     "gold": "spanish",
+     "gen": {
+      "1": " Spanish.",
+      "2": " Spanish.",
+      "3": " Spanish.",
+      "4": " Spanish."
+     }
+    },
+    {
+     "cloze": "Andrzej Sapkowski speaks the language of",
+     "gold": "polish",
+     "gen": {
+      "1": " the characters in his book.",
+      "2": " Polish.",
+      "3": " Polish.",
+      "4": " Polish."
+     }
+    },
+    {
+     "cloze": "Abraham Lincoln is married to",
+     "gold": "mary todd lincoln",
+     "gen": {
+      "1": " Mary Lincoln.",
+      "2": " Mary Todd Lincoln.",
+      "3": " Mary Todd Lincoln.",
+      "4": " Mary Todd Lincoln."
+     }
+    },
+    {
+     "cloze": "The author of Gulliver's Travels is",
+     "gold": "jonathan swift",
+     "gen": {
+      "1": " Jonathan Swift.",
+      "2": " Jonathan Swift.",
+      "3": " Jonathan Swift.",
+      "4": " Jonathan Swift."
+     }
+    },
+    {
+     "cloze": "Charlie Brown was created by",
+     "gold": "charles m schulz",
+     "gen": {
+      "1": " the cartoonist Charles Schulz.",
+      "2": " Charles Schulz.",
+      "3": " Charles Schulz.",
+      "4": " Charles Schulz."
+     }
+    },
+    {
+     "cloze": "Sei Sh\u014dnagon was born in the city of",
+     "gold": "kyoto",
+     "gen": {
+      "1": " Kyoto.",
+      "2": " Kyoto.",
+      "3": " Kyoto.",
+      "4": " Kyoto."
+     }
+    }
+   ]
+  }
+ },
+ "chosen": "fewshot"
+}
